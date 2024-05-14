@@ -1,0 +1,9 @@
+{
+  "item.tutorialmod.ruby": "Rubin",
+  "item.tutorialmod.raw_ruby": "Roa Rubin",
+
+  "block.tutorialmod.ruby_block": "Rubinblock",
+  "block.tutorialmod.raw_ruby_block": "Roarubinblock",
+
+  "itemgroup.ruby": "Ruby Tab"
+}
