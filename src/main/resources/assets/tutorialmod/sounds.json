@@ -1,0 +1,32 @@
+{
+  "metal_detector_found_ore": {
+    "subtitle": "sounds.tutorialmod.metal_detector_found_ore",
+    "sounds": [
+      "tutorialmod:metal_detector_found_ore"
+    ]
+  },
+  "be": {
+    "sounds": [
+      {
+        "name": "tutorialmod:be",
+        "stream": true
+      }
+    ]
+  },
+  "figure_09": {
+    "sounds": [
+      {
+        "name": "tutorialmod:figure_09",
+        "stream": true
+      }
+    ]
+  },
+  "cog": {
+    "sounds": [
+      {
+        "name": "tutorialmod:cog",
+        "stream": true
+      }
+    ]
+  }
+}
