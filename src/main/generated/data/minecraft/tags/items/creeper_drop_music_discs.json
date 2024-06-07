@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "tutorialmod:be_music_disc",
-    "tutorialmod:figure_09_music_disc",
-    "tutorialmod:cog_music_disc"
+    "bischlmod:be_music_disc",
+    "bischlmod:figure_09_music_disc",
+    "bischlmod:cog_music_disc"
   ]
 }

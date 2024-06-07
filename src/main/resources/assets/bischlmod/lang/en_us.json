@@ -1,0 +1,19 @@
+{
+  "item.bischlmod.ruby": "Ruby",
+  "item.bischlmod.raw_ruby": "Raw Ruby",
+  "item.bischlmod.metal_detector": "Metal Detector",
+
+  "block.bischlmod.ruby_block": "Block of Ruby",
+  "block.bischlmod.raw_ruby_block": "Block of Raw Ruby",
+
+  "item.bischlmod.be_music_disc": "Be Music Disc",
+  "item.bischlmod.be_music_disc.desc": "Vonuras - Be",
+  "item.bischlmod.figure_09_music_disc": "Figure 09 Music Disc",
+  "item.bischlmod.figure_09_music_disc.desc": "Linkin Park - Figure 09 (Vocal Cover by Vonuras)",
+  "item.bischlmod.cog_music_disc": "Castle of Glass Music Disc",
+  "item.bischlmod.cog_music_disc.desc": "Linkin Park - Castle of Glass (Vocal Cover by Vonuras)",
+
+  "sounds.bischlmod.metal_detector_found_ore": "Metal Detector Jingle",
+
+  "itemgroup.ruby": "Ruby Tab"
+}
