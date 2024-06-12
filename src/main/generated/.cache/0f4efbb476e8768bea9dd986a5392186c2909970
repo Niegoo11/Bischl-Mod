@@ -1,10 +1,11 @@
-// 1.20.1	2024-06-07T08:39:23.6233616	BischlMod/Model Definitions
-27ef8f3f146c77cc1c1f0b6412cced415a04c742 assets\bischlmod\models\item\metal_detector.json
-2e8ed215dd93513590ff21e8a80b6e4914c18868 assets\bischlmod\models\item\ruby_block.json
-9627c4bcb28968d7504ff2543bdc633dfa559c45 assets\bischlmod\models\block\ruby_block.json
+// 1.20.1	2024-06-12T22:22:42.6470397	BischlMod/Model Definitions
 77b7ba50d11c263f405944f90975674f758ab12b assets\bischlmod\models\item\raw_ruby.json
-b0134afe48b5048c9c681424113f1ecfcf6ffdb8 assets\bischlmod\models\item\be_music_disc.json
-b1bdcfcf1704224f2c76b796e6a3f9aa0b983adb assets\bischlmod\models\item\cog_music_disc.json
-f64b20595c7146fdb67b4eb14080ecaad202608c assets\bischlmod\models\item\ruby.json
-4b6fab85d1703c23bfc0303b21c1bcab13c2aad7 assets\bischlmod\models\item\figure_09_music_disc.json
+2e8ed215dd93513590ff21e8a80b6e4914c18868 assets\bischlmod\models\item\ruby_block.json
 5e46c58e293ecd93d9f6b695ced2f4fb76366ae1 assets\bischlmod\blockstates\ruby_block.json
+27ef8f3f146c77cc1c1f0b6412cced415a04c742 assets\bischlmod\models\item\metal_detector.json
+f64b20595c7146fdb67b4eb14080ecaad202608c assets\bischlmod\models\item\ruby.json
+b1bdcfcf1704224f2c76b796e6a3f9aa0b983adb assets\bischlmod\models\item\cog_music_disc.json
+b0134afe48b5048c9c681424113f1ecfcf6ffdb8 assets\bischlmod\models\item\be_music_disc.json
+4b6fab85d1703c23bfc0303b21c1bcab13c2aad7 assets\bischlmod\models\item\figure_09_music_disc.json
+9627c4bcb28968d7504ff2543bdc633dfa559c45 assets\bischlmod\models\block\ruby_block.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets\bischlmod\models\item\porcupine_spawn_egg.json

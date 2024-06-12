@@ -22,6 +22,8 @@ public class ModItemGroups {
                         entries.add(ModItems.FIGURE_09_MUSIC_DISC);
                         entries.add(ModItems.COG_MUSIC_DISC);
 
+                        entries.add(ModItems.PORCUPINE_SPAWN_EGG);
+
                         entries.add(ModItems.METAL_DETECTOR);
 
                         entries.add(Items.DIAMOND);

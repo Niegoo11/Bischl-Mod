@@ -1,6 +1,8 @@
 package us.diewaldmert.bischlmod.item;
 
+import net.minecraft.item.SpawnEggItem;
 import us.diewaldmert.bischlmod.BischlMod;
+import us.diewaldmert.bischlmod.entity.ModEntities;
 import us.diewaldmert.bischlmod.item.custom.MetalDetectorItem;
 import us.diewaldmert.bischlmod.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -18,6 +20,9 @@ public class ModItems {
     public static final Item BE_MUSIC_DISC = registerItem("be_music_disc", new MusicDiscItem(7, ModSounds.BE, new FabricItemSettings().maxCount(1), 233));
     public static final Item FIGURE_09_MUSIC_DISC = registerItem("figure_09_music_disc", new MusicDiscItem(7, ModSounds.FIGURE_09, new FabricItemSettings().maxCount(1), 194));
     public static final Item COG_MUSIC_DISC = registerItem("cog_music_disc", new MusicDiscItem(7, ModSounds.COG, new FabricItemSettings().maxCount(1), 205));
+
+    public static final Item PORCUPINE_SPAWN_EGG = registerItem("porcupine_spawn_egg",
+            new SpawnEggItem(ModEntities.PORCUPINE, 0x696b7a, 0x696b7a, new FabricItemSettings()));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);

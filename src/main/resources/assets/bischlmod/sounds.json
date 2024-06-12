@@ -28,5 +28,77 @@
         "stream": true
       }
     ]
+  },
+  "bischl_falafel": {
+    "sounds": [
+      {
+        "name": "bischlmod:bischl_falafel",
+        "stream": true
+      }
+    ]
+  },
+  "bischl_oida": {
+    "sounds": [
+      {
+        "name": "bischlmod:bischl_oida",
+        "stream": true
+      }
+    ]
+  },
+  "bischl_mine": {
+    "sounds": [
+      {
+        "name": "bischlmod:bischl_mine",
+        "stream": true
+      }
+    ]
+  },
+  "bischl_morgen": {
+    "sounds": [
+      {
+        "name": "bischlmod:bischl_morgen",
+        "stream": true
+      }
+    ]
+  },
+  "bischl_gutearbeit": {
+    "sounds": [
+      {
+        "name": "bischlmod:bischl_gutearbeit",
+        "stream": true
+      }
+    ]
+  },
+  "bischl_gratulation": {
+    "sounds": [
+      {
+        "name": "bischlmod:bischl_gratulation",
+        "stream": true
+      }
+    ]
+  },
+  "bischl_genauso": {
+    "sounds": [
+      {
+        "name": "bischlmod:bischl_genauso",
+        "stream": true
+      }
+    ]
+  },
+  "bischl_saugeil": {
+    "sounds": [
+      {
+        "name": "bischlmod:bischl_saugeil",
+        "stream": true
+      }
+    ]
+  },
+  "bischl_sehrgut": {
+    "sounds": [
+      {
+        "name": "bischlmod:bischl_sehrgut",
+        "stream": true
+      }
+    ]
   }
 }
