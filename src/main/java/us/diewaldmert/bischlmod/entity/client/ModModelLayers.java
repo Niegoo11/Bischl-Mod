@@ -6,7 +6,7 @@ import us.diewaldmert.bischlmod.BischlMod;
 
 public class ModModelLayers {
 
-    public static final EntityModelLayer PORCUPINE =
-            new EntityModelLayer(new Identifier(BischlMod.MOD_ID, "porcupine"), "main");
+    public static final EntityModelLayer BISCHL =
+            new EntityModelLayer(new Identifier(BischlMod.MOD_ID, "bischl"), "main");
 
 }

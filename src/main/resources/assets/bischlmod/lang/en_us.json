@@ -3,7 +3,6 @@
   "item.bischlmod.raw_ruby": "Raw Ruby",
   "item.bischlmod.metal_detector": "Metal Detector",
 
-  "block.bischlmod.ruby_block": "Block of Ruby",
   "block.bischlmod.raw_ruby_block": "Block of Raw Ruby",
 
   "item.bischlmod.be_music_disc": "Be Music Disc",
@@ -13,7 +12,7 @@
   "item.bischlmod.cog_music_disc": "Castle of Glass Music Disc",
   "item.bischlmod.cog_music_disc.desc": "Linkin Park - Castle of Glass (Vocal Cover by Vonuras)",
 
-  "item.bischlmod.porcupine_spawn_egg": "Bischl Spawn Egg",
+  "item.bischlmod.bischl_spawn_egg": "Bischl Spawn Egg",
 
   "sounds.bischlmod.metal_detector_found_ore": "Metal Detector Jingle",
 

@@ -19,7 +19,6 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_BLOCK);
     }
 
     @Override
@@ -33,7 +32,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.FIGURE_09_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.COG_MUSIC_DISC, Models.GENERATED);
 
-        itemModelGenerator.register(ModItems.PORCUPINE_SPAWN_EGG,
+        itemModelGenerator.register(ModItems.BISCHL_SPAWN_EGG,
                 new Model(Optional.of(new Identifier("item/template_spawn_egg")), Optional.empty()));
     }
 }

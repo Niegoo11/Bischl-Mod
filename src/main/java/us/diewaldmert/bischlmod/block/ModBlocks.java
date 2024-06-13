@@ -11,10 +11,9 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import us.diewaldmert.bischlmod.sound.ModSounds;
 
 public class ModBlocks {
-    public static final Block RUBY_BLOCK = registerBlock("ruby_block", new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
-
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

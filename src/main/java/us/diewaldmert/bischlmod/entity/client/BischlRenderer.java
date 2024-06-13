@@ -6,22 +6,22 @@ import net.minecraft.client.render.entity.MobEntityRenderer;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.Identifier;
 import us.diewaldmert.bischlmod.BischlMod;
-import us.diewaldmert.bischlmod.entity.custom.PorcupineEntity;
+import us.diewaldmert.bischlmod.entity.custom.BischlEntity;
 
-public class PorcupineRenderer extends MobEntityRenderer<PorcupineEntity, PorcupineModel<PorcupineEntity>> {
-    private static final Identifier TEXTURE = new Identifier(BischlMod.MOD_ID, "textures/entity/porcupine.png");
+public class BischlRenderer extends MobEntityRenderer<BischlEntity, BischlModel<BischlEntity>> {
+    private static final Identifier TEXTURE = new Identifier(BischlMod.MOD_ID, "textures/entity/bischl.png");
 
-    public PorcupineRenderer(EntityRendererFactory.Context context) {
-        super(context, new PorcupineModel<>(context.getPart(ModModelLayers.PORCUPINE)), 0.6f);
+    public BischlRenderer(EntityRendererFactory.Context context) {
+        super(context, new BischlModel<>(context.getPart(ModModelLayers.BISCHL)), 0.6f);
     }
 
     @Override
-    public Identifier getTexture(PorcupineEntity entity) {
+    public Identifier getTexture(BischlEntity entity) {
         return TEXTURE;
     }
 
     @Override
-    public void render(PorcupineEntity mobEntity, float f, float g, MatrixStack matrixStack,
+    public void render(BischlEntity mobEntity, float f, float g, MatrixStack matrixStack,
                        VertexConsumerProvider vertexConsumerProvider, int i) {
         matrixStack.scale(1.5f, 1.5f, 1.5f);
 

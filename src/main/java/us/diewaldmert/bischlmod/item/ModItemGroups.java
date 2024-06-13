@@ -22,13 +22,11 @@ public class ModItemGroups {
                         entries.add(ModItems.FIGURE_09_MUSIC_DISC);
                         entries.add(ModItems.COG_MUSIC_DISC);
 
-                        entries.add(ModItems.PORCUPINE_SPAWN_EGG);
+                        entries.add(ModItems.BISCHL_SPAWN_EGG);
 
                         entries.add(ModItems.METAL_DETECTOR);
 
                         entries.add(Items.DIAMOND);
-
-                        entries.add(ModBlocks.RUBY_BLOCK);
                     }).build());
 
 

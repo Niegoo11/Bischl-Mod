@@ -1,9 +1,12 @@
 package us.diewaldmert.bischlmod;
 
+import net.fabricmc.fabric.api.event.player.AttackEntityCallback;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import us.diewaldmert.bischlmod.block.ModBlocks;
+import us.diewaldmert.bischlmod.commands.ModCommands;
 import us.diewaldmert.bischlmod.entity.ModEntities;
-import us.diewaldmert.bischlmod.entity.custom.PorcupineEntity;
+import us.diewaldmert.bischlmod.entity.custom.BischlEntity;
+import us.diewaldmert.bischlmod.event.AttackEntityHandler;
 import us.diewaldmert.bischlmod.item.ModItemGroups;
 import us.diewaldmert.bischlmod.item.ModItems;
 import us.diewaldmert.bischlmod.painting.ModPaintings;
@@ -28,7 +31,11 @@ public class BischlMod implements ModInitializer {
 
 		ModPaintings.registerPaintings();
 
-		FabricDefaultAttributeRegistry.register(ModEntities.PORCUPINE, PorcupineEntity.createProcupineAttributes());
+		ModCommands.registerCommands();
+
+		FabricDefaultAttributeRegistry.register(ModEntities.BISCHL, BischlEntity.createBischlAttributes());
+
+		AttackEntityCallback.EVENT.register(new AttackEntityHandler());
 
 	}
 }

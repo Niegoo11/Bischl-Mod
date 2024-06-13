@@ -5,15 +5,15 @@ import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import us.diewaldmert.bischlmod.entity.ModEntities;
 import us.diewaldmert.bischlmod.entity.client.ModModelLayers;
-import us.diewaldmert.bischlmod.entity.client.PorcupineModel;
-import us.diewaldmert.bischlmod.entity.client.PorcupineRenderer;
+import us.diewaldmert.bischlmod.entity.client.BischlModel;
+import us.diewaldmert.bischlmod.entity.client.BischlRenderer;
 
 public class BischlModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 
-        EntityRendererRegistry.register(ModEntities.PORCUPINE, PorcupineRenderer::new);
-        EntityModelLayerRegistry.registerModelLayer(ModModelLayers.PORCUPINE, PorcupineModel::getTexturedModelData);
+        EntityRendererRegistry.register(ModEntities.BISCHL, BischlRenderer::new);
+        EntityModelLayerRegistry.registerModelLayer(ModModelLayers.BISCHL, BischlModel::getTexturedModelData);
 
     }
 }

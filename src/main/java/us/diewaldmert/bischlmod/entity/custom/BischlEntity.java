@@ -19,10 +19,10 @@ import org.jetbrains.annotations.Nullable;
 import us.diewaldmert.bischlmod.entity.ModEntities;
 import us.diewaldmert.bischlmod.sound.ModSounds;
 
-public class PorcupineEntity extends AnimalEntity {
+public class BischlEntity extends AnimalEntity {
 
 
-    public PorcupineEntity(EntityType<? extends AnimalEntity> entityType, World world) {
+    public BischlEntity(EntityType<? extends AnimalEntity> entityType, World world) {
         super(entityType, world);
     }
 
@@ -42,7 +42,7 @@ public class PorcupineEntity extends AnimalEntity {
 
     }
 
-    public static DefaultAttributeContainer createProcupineAttributes() {
+    public static DefaultAttributeContainer createBischlAttributes() {
         return MobEntity.createMobAttributes()
                 .add(EntityAttributes.GENERIC_MAX_HEALTH, 15)
                 .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.2f)
@@ -58,7 +58,7 @@ public class PorcupineEntity extends AnimalEntity {
     @Nullable
     @Override
     public PassiveEntity createChild(ServerWorld world, PassiveEntity entity) {
-        return ModEntities.PORCUPINE.create(world);
+        return ModEntities.BISCHL.create(world);
     }
 
     @Nullable
