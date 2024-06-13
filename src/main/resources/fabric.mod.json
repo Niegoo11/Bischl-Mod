@@ -3,9 +3,10 @@
 	"id": "bischlmod",
 	"version": "${version}",
 	"name": "BischlMod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "BISCHL MOD",
 	"authors": [
-		"Me!"
+		"Cxcentrate",
+		"supercrafter_x"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
